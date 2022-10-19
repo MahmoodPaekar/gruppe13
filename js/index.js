@@ -3,7 +3,7 @@ import {ingredienser} from './ingredienser.js'
 const startKnapp = document.querySelector('#start-spill')
 const spill = document.querySelector('#spill')
 const kundePizzaE = document.querySelector('#kundePizza')
-const spillRes = document.querySelector('#x')
+const spillRes = document.querySelector('#spillRes')
 startKnapp.addEventListener('click', startSpill)
 
 let nyPizza = []
